@@ -1,0 +1,128 @@
+header{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  padding: 40px;
+  margin: 10px auto;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/CUPnCfM/videoblocks-traces-of-a-walking-animal-on-blue-background-with-animal-paw-prints-cartoon-comic-funny-paws_sxtvswmjf_thumbnail-full10.png"); background-size: 60% 200%;
+}
+header a:hover{
+    color: #f7f4f7;
+  }
+nav ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 5px;
+  list-style-image: url('pawprint.jpg' width=5px);
+}
+nav li{
+  display: inline-block;
+  align: 0 auto;
+  margin-top: 0 ;
+  font-variant: small-caps;
+  font-size: 28px;
+  width: fit-content; */use ctrl click inspect*/
+  height: 5%;
+  padding: 10px 15px;
+  border:5px black double;
+  border-radius: 10px;
+}
+nav a:hover{
+  background: linear-gradient(red, orange, yellow, lime, cyan, blue, Darkviolet);
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin: 0 auto 15px;
+  padding: 10px 20px;
+  background-color: #fcd6f5
+}
+a{
+  text-decoration: none;
+  font-variant: small-caps;
+  color:#c266c4;
+  text-shadow: -1px 1px 0 pink,
+              1px 1px 0 pink,
+              1px -1px 0 pink,
+              -1px -1px 0 pink;
+}
+body a:hover{
+  color: #f7f4f7;
+}
+.dogdata{
+  text-align: center;
+}
+table, th, td{
+  border: 2px black dotted;
+  padding: 10px
+}
+.doggo{
+  font-style: oblique;
+  font-size: 48px;
+  font-weight: bold;
+}
+h2{
+  padding: 5px 5px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: white;
+  text-shadow: -1px 1px 0 black,
+              1px 1px 0 black,
+              1px -1px 0 black,
+              -1px -1px 0 black;
+  background:linear-gradient(red, orange, yellow, lime, cyan, blue, Darkviolet);
+}
+.doggopic{
+  display: inline-block;
+  margin: 10px auto;
+  border: 3px white;
+  align: center;
+  padding: 0 10px;
+  border: lightblue 5px;
+}
+.doggoprofile{
+  display: inline-block;
+  border-radius: 60px;
+}
+.doginfo{
+  display: inline-block;
+  width: fit-content;
+  margin: 20px;
+  padding: 20px;
+  border: 5px black dotted;
+  background-color: linear-gradient(red, orange, yellow, lime, cyan, blue, Darkviolet);
+  font-style: oblique;
+}
+#dogrankings {
+  margin: 0 auto;
+  width: 80%;
+  padding:10px;
+  border: 10px solid lightblue;
+}
+#dogrankings li{
+  text-decoration: underline lightblue;
+}
+.funfact{
+  display: inline-block;
+  text-align:right;
+  width: fit-content;
+  padding:10px;
+  margin: 10px;
+  border: 10px dotted lightblue;
+  float: right;
+}
+.funfact a:hover{
+  font-size: 22px;
+}
+.floatleft{
+  float: left;
+}
+div{
+  padding: 10px 0
+}
+img{
+  border: 5px black;
+}
+ul li{
+  list-style-image: url('pawprint.jpg' width=5px);
+}
